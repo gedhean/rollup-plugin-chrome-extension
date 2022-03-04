@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-chrome-extension",
+  "name": "@gedhean/rollup-plugin-chrome-extension",
   "version": "3.6.7",
   "description": "Build Chrome Extensions with this Rollup plugin.",
   "keywords": [
