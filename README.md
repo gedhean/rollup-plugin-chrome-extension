@@ -81,3 +81,7 @@ npm or Yarn should work.
 If you're using VSCode you can run the default build task
 (Ctrl+Shift+B or ⇧⌘B for Mac) to start building and type
 checking.
+
+## Change my by Jedi
+
+- Fixed [Issue 110](https://github.com/extend-chrome/rollup-plugin-chrome-extension/issues/110): <all_urls> match patterns are not handled properly;
