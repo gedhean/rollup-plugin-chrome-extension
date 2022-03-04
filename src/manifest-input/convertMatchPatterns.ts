@@ -1,4 +1,6 @@
 export const convertMatchPatterns = (m: string): string => {
+  // Fix: https://github.com/extend-chrome/rollup-plugin-chrome-extension/issues/110
+  if (m === "<all_urls>") return m;
   // Use URL to parse match pattern
   // URL must have valid url scheme
   const [scheme, rest] = m.split('://')
